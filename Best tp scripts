@@ -1,0 +1,41 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local Window = Library:NewWindow("Jontol Hub")
+
+local Tab = Window:NewSection("Tp scripts")
+
+Tab:CreateButton("Tp castle", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
+
+end)
+
+Tab:CreateButton("Tp teslaLab", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
+
+end)
+
+Tab:CreateButton("Tp train", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/train.github.io/refs/heads/main/train.lua'))()
+
+end)
+
+Tab:CreateButton("Tp Barn/Farmer", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/tpfarm.github.io/refs/heads/main/tptofarm.lua"))()
+
+end)
+
+Tab:CreateButton("Tp near Bank", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/Tptobank.github.io/refs/heads/main/Banktp.lua"))()
+
+end)
+
+Tab:CreateButton("Tp End", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/newpacifisct/refs/heads/main/newpacifisct.lua"))()
+
+end)
