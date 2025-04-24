@@ -39,3 +39,15 @@ Tab:CreateButton("Tp End", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/newpacifisct/refs/heads/main/newpacifisct.lua"))()
 
 end)
+
+local Tab = Window:NewSection("Anything op")
+
+Tab:CreateButton("Unlock horse class", function()
+
+local args = {
+    [1] = "Horse"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("RemotePromise"):WaitForChild("Remotes"):WaitForChild("C_BuyClass"):FireServer(unpack(args))
+
+end)
