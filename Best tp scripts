@@ -52,6 +52,12 @@ game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("Remote
 
 end)
 
+Tab:CreateButton("airweld", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWAIRWELD.github.io/refs/heads/main/weld.lua"))()
+
+end)
+
 Tab:CreateToggle("Esp Unicorn", function(value)
 
 local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
