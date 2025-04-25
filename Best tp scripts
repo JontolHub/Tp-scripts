@@ -16,6 +16,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.git
 
 end)
 
+Tab:CreateButton("Tp Fort Contistution", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/Tpfort.github.io/refs/heads/main/Tpfort.lua"))()
+
+end)
+
 Tab:CreateButton("Tp train", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/train.github.io/refs/heads/main/train.lua'))()
