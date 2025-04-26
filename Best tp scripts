@@ -102,3 +102,9 @@ workspace.DescendantAdded:Connect(function(obj)
 end)
 
 end)
+
+Tab:CreateButton("Auto bond opp", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
+
+end)
