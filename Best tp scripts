@@ -108,3 +108,9 @@ Tab:CreateButton("Auto bond opp", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
 
 end)
+
+Tab:CreateButton("Npc lock", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JontolHub/Npc-lock/refs/heads/main/Npc%20lock%20best"))()
+
+end)
