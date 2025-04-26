@@ -1,6 +1,6 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local Window = Library:NewWindow("Jontol Hub")
+local Window = Library:NewWindow("Jontol Hub | Dead rails")
 
 local Tab = Window:NewSection("Tp scripts")
 
