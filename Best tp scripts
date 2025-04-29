@@ -103,14 +103,14 @@ end)
 
 end)
 
-Tab:CreateButton("Auto bond opp", function()
+Tab:CreateButton("ULTIMATE auto bond", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
 
 end)
 
-Tab:CreateButton("Npc lock", function()
+Tab:CreateButton("Gun kill aura", function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JontolHub/Npc-lock/refs/heads/main/Npc%20lock%20best"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/Aimbot.github.io/refs/heads/main/Kill.lua"))()
 
 end)
