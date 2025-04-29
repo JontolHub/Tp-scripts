@@ -160,7 +160,7 @@ end, UDim2.new(0.1, 0, 0.06, 0))
 
 CreateButton(otherTab, "Airweld", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWAIRWELD.github.io/refs/heads/main/weld.lua"))()
-end, Udim2.new(0.1, 0, 0.06, 0))
+end, Udim2.new(0.1, 0, 0.3, 0))
 
 
 
