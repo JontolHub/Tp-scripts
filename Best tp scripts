@@ -20,7 +20,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("Remote
 
 end)
 
-Tab:CreateButton("Esp unicorn", function()
+Tab:CreateToggle("Unicorn esp", function(value)
 
 local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
 ESP:Toggle(true)
