@@ -64,3 +64,9 @@ Tab:CreateButton("GuiV2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JontolHub/Best-Scripts-Jontol-Lua/refs/heads/main/Best%20Scripts%20Jontol%20Lua"))()
 
 end)
+
+Tab:CreateButton("Ultimate farm bond", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
+
+end)
