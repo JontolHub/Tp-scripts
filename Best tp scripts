@@ -70,3 +70,9 @@ Tab:CreateButton("Ultimate farm bond", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
 
 end)
+
+Tab:CreateButton("Npclock", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JontolHub/Normal-Lock/refs/heads/main/Npc%20lock%20lua"))()
+
+end)
